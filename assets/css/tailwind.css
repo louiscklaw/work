@@ -1000,6 +1000,10 @@ video {
   margin: 0.5rem;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1113,6 +1117,14 @@ video {
   height: 75px;
 }
 
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-3\/4 {
+  height: 75%;
+}
+
 .max-h-\[300px\] {
   max-height: 300px;
 }
@@ -1167,6 +1179,14 @@ video {
 
 .w-\[75px\] {
   width: 75px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-screen {
