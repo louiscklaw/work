@@ -1,0 +1,68 @@
+<header class="
+    z-50
+    text-black-50 
+    py-0 md:py-4
+    sticky 
+    inset-0
+    min-h-8
+    w-full 
+    rounded-md 
+    bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-30 
+    bg-white
+    "
+    >
+    <nav class=" text-lg grid grid-cols-1 gap-4 place-items-center " >
+        <div class="hidden md:inline">
+            <div class="flex gap-8 chi-font-small-spacing">        
+                <div class="hover:underline"> 
+                    <a href="{{ '/' | transformWithHtmlBase }}"><span class="font-extrabold  text-color ">首</span>頁</a>
+                </div>
+
+                <div class="hover:underline"> 
+                    <a href="{{ '/develop_flow' | transformWithHtmlBase }}"><span class="font-extrabold  text-color ">開</span>發流程</a>
+                </div>
+                
+                <div class="hover:underline"> 
+                    <a href="{{ '/techstacks' | transformWithHtmlBase }}"><span class="font-extrabold  text-color ">技</span>術特色</a>
+                </div>
+                
+                <div class="hover:underline"> 
+                    <a href="{{ '/contact_us' | transformWithHtmlBase }}"><span class="font-extrabold  text-color ">聯</span>絡我們</a>
+                </div>
+
+                <div class="hover:underline"> 
+                    <a href="{{ '/blog' | transformWithHtmlBase }}"><span class="font-extrabold  text-color ">開</span>發日誌</a>
+                </div>
+            </div>
+        </div>
+
+        {# mobile menu #}
+            <div class="
+                block md:hidden
+                w-[100vw]
+                pt-0
+                grid grid-cols-5 place-items-center
+                " 
+                style="height: calc( 100vw / 5);"
+            >
+                <div class="h-full w-full grid grid-cols-1 place-items-center">
+                    <a href="{{ '/' | transformWithHtmlBase }}"><span class="font-extrabold  primary-color ">首</span>頁</a>
+                </div>
+                <div class="h-full w-full grid grid-cols-1 place-items-center">
+                    <a href="{{ '/contact_us' | transformWithHtmlBase }}"><span class="font-extrabold  primary-color ">聯</span>絡<br />我們</a>
+                </div>
+                <div class="h-full w-full grid grid-cols-1 place-items-center">
+                    <a href="{{ '/develop_flow' | transformWithHtmlBase }}"><span class="font-extrabold  primary-color ">開</span>發<br />流程</a>
+                </div>
+                <div class="h-full w-full grid grid-cols-1 place-items-center">
+                    <a href="{{ '/techstacks' | transformWithHtmlBase }}"><span class="font-extrabold  primary-color ">技</span>術<br />特色</a>
+                </div>
+                <div class="h-full w-full grid grid-cols-1 place-items-center">
+                    <a href="{{ '/blog' | transformWithHtmlBase }}"><span class="font-extrabold  primary-color ">開</span>發<br />日誌</a>
+                </div>
+            </div>
+
+
+    </nav>
+
+</header>

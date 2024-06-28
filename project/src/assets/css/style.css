@@ -1,0 +1,43 @@
+/* custom */
+.eng-font {
+  letter-spacing: 0rem;
+}
+
+.chi-font-no-spacing {
+  letter-spacing: 0rem;
+}
+
+.chi-font-small-spacing {
+  letter-spacing: 0.1rem;
+}
+
+.chi-font-mid-spacing {
+  letter-spacing: 0.2rem;
+}
+
+.chi-font-large-spacing {
+  letter-spacing: 0.5rem;
+}
+
+
+.chi-font-small-line-height {
+  line-height: 1.5rem;
+}
+
+.chi-paragraph {
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+.primary-color{
+  color: #FF9100
+}
+
+.secondary-color{
+  color: hsl(220, 8%, 66%)
+}
+
+
+.text-color{
+  color: hsl(220, 8%, 23%)
+}

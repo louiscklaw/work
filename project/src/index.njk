@@ -1,0 +1,754 @@
+---
+layout : base 
+title : 首頁 
+tags : page # add this 
+order : 1
+--- 
+
+<div class="
+  py-4 md:py-12 
+  grid grid-cols-1 gap-4
+  ">
+
+  <section class="
+    grid grid-cols-1 gap-4
+    md:grid md:grid-cols-2 md:gap-4
+    place-items-center
+
+    px-4 md:px-20
+    py-0 md:py-10
+
+    max-w-7xl md:max-w-7xl
+    mx-auto
+
+    "
+    style="height: calc( 100vh - 10rem );"
+    >
+      <div class=" grid grid-cols-1 gap-8 order-2 md:order-1 " >
+        <h2 class="block md:hidden text-4xl text-semi-bold text-center">
+          <span class="primary-color font-bold">簡單</span>編程<br /><span class="primary-color font-bold">出色</span>效能
+        </h2>
+
+        <h2 class="hidden md:block text-5xl text-semi-bold ">
+          <span class="primary-color font-bold">簡單</span>編程，<span class="primary-color font-bold">出色</span>效能
+        </h2>
+
+        <p class="md:text-xl chi-font-small-spacing leading-relaxed">
+          使用 <span class="eng-font">Louislabs</span> 的定制數碼解決方案，
+          精心設計的軟件用以優化您的工作流程並提高生產力，
+          進一步拓展您的業務。
+        </p>
+
+        <p class="text-xl chi-font-small-spacing text-center md:text-left">
+          <span class="primary-color font-semibold">簡單</span>的程式設計，<span class="primary-color font-semibold">出色</span>的效能。
+        </p>
+      </div>
+
+      <div class="
+          h-[300px] w-full 
+          
+          hidden lg:block
+
+          order-1 md:order-2
+          bg-contain bg-center bg-no-repeat
+          "
+          style="
+            background-image: url( {{ '/assets/images/home-first.png' | htmlBaseUrl  }} )
+            "
+        ></div>
+      </div>
+
+      
+  </section>
+
+  <section class="
+    py-16
+    bg-gradient-to-r from-slate-900 to-slate-700
+    " >
+    <div class="
+      py-10 
+      px-1 md:px-10 
+      max-w-6xl md:max-w-5xl mx-auto 
+      grid grid-cols-1 gap-4 place-items-center 
+      {# gradient background #} text-gray-100 
+      ">
+      <div class="grid grid-cols-1 gap-8 place-items-center ">
+        <h2 class="text-xl font-semibold">一站式服務</h2>
+        <div class="text-xl md:text-3xl">全程無憂，我們一手包辦！</div>
+        <div class="hidden md:block grid grid-cols-1 gap-0 place-items-center">
+          <div>從啟動專案到發佈及維護，您無須擔心任何技術難題。</div>
+          <div>使用我們的一條龍服務，您可以專注於最重要的事情：業務成長。</div>
+        </div>
+      </div>
+      <div>
+        <div class="
+          grid 
+          grid-cols-1 gap-1 place-items-start
+          md:grid-cols-3 md:gap-4
+          ">
+          <div class="
+            flex flex-row md:flex-col justify-center items-center gap-4
+            p-2 md:p-5
+            m-2 md:m-5
+            ">
+            <div class="
+              h-16 w-16
+              md:h-24 md:w-24
+              bg-center bg-no-repeat bg-contain
+            "
+            style="
+            background-image: url( {{ '/assets/images/globe-svgrepo-com.svg' | htmlBaseUrl  }} )
+            "
+            >
+            </div>
+            <div class="text-xl">網頁製作服務</div>
+            <div class="text-lg hidden md:block">建立您的營銷推廣網頁，向客戶介紹您的產品與服務，體驗業務的增長！</div>
+          </div>
+
+          <div class="
+            flex flex-row md:flex-col justify-center items-center gap-4
+            p-2 md:p-5
+            m-2 md:m-5
+            ">
+            <div class="
+              h-16 w-16
+              md:h-24 md:w-24
+              bg-center bg-no-repeat bg-contain
+            "
+            style="
+            background-image: url( {{ '/assets/images/code-svgrepo-com.svg' | htmlBaseUrl  }} )
+            "
+            >
+            </div>
+            <div class="text-xl">後台系統開發</div>
+            <div class="text-lg hidden md:block">我們為您開發高效的客製化後台管理系統，大大提高您的業務管理效益。</div>
+          </div>
+
+          <div class="
+            flex flex-row md:flex-col justify-center items-center gap-4
+            p-2 md:p-5
+            m-2 md:m-5
+            ">
+            <div class="
+              h-16 w-16
+              md:h-24 md:w-24
+              bg-center bg-no-repeat bg-contain
+            "
+            style="
+            background-image: url( {{ '/assets/images/ai-svgrepo-com.svg' | htmlBaseUrl  }} )
+            "
+            >
+            </div>
+            <div class="text-xl">定制軟件或AI方案</div>
+            <div class="text-lg hidden md:block">我們的定制解決方案可以變革您的工作流程，提高效率並驅動業務擴展。</div>
+          </div>
+
+          <div class="
+            flex flex-row md:flex-col justify-center items-center gap-4
+            p-2 md:p-5
+            m-2 md:m-5
+            ">
+              <div class="
+                h-16 w-16
+                md:h-24 md:w-24
+                bg-center bg-no-repeat bg-contain
+              "
+              style="
+              background-image: url( {{ '/assets/images/analyze-svgrepo-com.svg' | htmlBaseUrl  }} )
+              "
+              >
+              </div>
+            <div class="text-xl">域名註冊服務</div>
+            <div class="text-lg hidden md:block">提供專業的域名建議和註冊服務，助您輕鬆擁有獨特的網址，專為你的品牌打造專屬的網絡形象。</div>
+          </div>
+          <div class="
+            flex flex-row md:flex-col justify-center items-center gap-4
+            p-2 md:p-5
+            m-2 md:m-5
+            ">
+              <div class="
+                h-16 w-16
+                md:h-24 md:w-24
+                bg-center bg-no-repeat bg-contain
+              "
+              style="
+              background-image: url( {{ '/assets/images/connected-svgrepo-com.svg' | htmlBaseUrl  }} )
+              "
+              >
+            </div>
+            <div class="text-xl">網絡託管服務</div>
+            <div class="text-lg hidden md:block">不懂如何發佈您的網站？我們提供高效穩定的網站託管服務，而您無需擔憂繁複的步驟。</div>
+          </div>
+          <div class="
+            flex flex-row md:flex-col justify-center items-center gap-4
+            p-2 md:p-5
+            m-2 md:m-5
+            ">
+            <div class="
+              h-16 w-16
+              md:h-24 md:w-24
+              bg-center bg-no-repeat bg-contain
+            "
+            style="
+            background-image: url( {{ '/assets/images/rocket-svgrepo-com.svg' | htmlBaseUrl  }} )
+            "
+            >
+            </div>
+            <div class="text-xl">持續維護服務</div>
+            <div class="text-lg hidden md:block">供持續並且優質的維護和支援，從技術升級到內容更新，全方位保障網站的正常運作與持續優化。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 grid grid-cols-1 gap-4">
+    <div class="
+      py-8 
+      max-w-6xl  md:max-w-5xl 
+      mx-auto 
+      text-center text-2xl text-center 
+      primary-color font-bold">
+        開發流程
+    </div>
+    <div class="container max-w-5xl px-4 mx-auto">
+      <div class="grid gap-4 mx-4 sm:grid-cols-12">
+        <div class="col-span-12 sm:col-span-3">
+          <div class="
+            text-center 
+            sm:text-left 
+            mb-14 
+            
+            before:block 
+            before:w-24 
+            before:h-3 
+            before:rounded-md 
+
+            before:mb-5 
+            before:mx-auto
+            sm:before:mx-0 
+            before:dark:bg-[#DC5F00]
+              ">
+            <h3 class="text-3xl font-semibold chi-font-small-spacing">
+              我們的開發流程
+            </h3>
+            <span class="text-md tracking-wider ">
+              我們為您提供的全方位開發流程，從專案起始到最終上線，我們將一路陪伴並確保專案順利進行。
+            </span>
+          </div>
+        </div>
+        
+        <div class="ml-0 md:ml-8 relative col-span-12 px-4 space-y-6 sm:col-span-9">
+          
+          <div class="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2
+              sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 ">
+              
+            <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full
+                sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-[#DC5F00]">
+              <h3 class="text-center md:text-left text-xl font-semibold tracking-wide">
+                啟動專案
+              </h3>
+              <time class="text-center md:text-left text-xs tracking-wide uppercase secondary-color">Stage 1</time>
+              <p class="mt-3 chi-font-small-spacing">
+                我們的團隊將與您深入討論您的需求，設定初步諮詢，我們將為您量身打造專屬的數位解決方案。
+              </p>
+            </div>
+            <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full
+                sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-[#DC5F00]">
+              <h3 class="text-center md:text-left text-xl font-semibold tracking-wide ">
+                設計和修訂
+              </h3>
+              <time class="text-center md:text-left text-xs tracking-wide uppercase secondary-color">Stage 2</time>
+              <p class="mt-3 chi-font-small-spacing">
+                我們的團隊會呈現網站/軟體的設計稿並提供給您參考。我們期待您的反饋和改进建議，以求達到您的需求並調整報價。</p>
+            </div>
+            <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full
+                sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-[#DC5F00]">
+              <h3 class="text-center md:text-left text-xl font-semibold tracking-wide ">
+                開發與測試
+              </h3>
+              <time class="text-center md:text-left text-xs tracking-wide uppercase secondary-color">Stage 3</time>
+              <p class="mt-3 chi-font-small-spacing">
+                我們的軟體工程師將專心致力於開發和優化工作，並不斷進行測試以確保專案的順利進行和軟體的卓越表現。</p>
+            </div>
+            <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full
+                sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-[#DC5F00]">
+              <h3 class="text-center md:text-left text-xl font-semibold tracking-wide ">
+                發佈及維護
+              </h3>
+              <time class="text-center md:text-left text-xs tracking-wide uppercase secondary-color">Stage 4</time>
+              <p class="mt-3 chi-font-small-spacing">
+                您的專案正式發佈上線，恭喜您！我們將提供持續的支援與優化服務，確保您的專案持續運行良好。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex justify-center py-12">
+      <button class="
+        text-white
+        bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500
+        shadow-lg
+
+        font-semibold 
+        py-2 px-4 
+        rounded-full 
+        flex justify-center items-center
+        ">
+        <div class="py-1 px-3 hover:text-white font-semibold chi-font-small-spacing">
+          了解更多關於我們的系統開發流程 
+        </div>
+
+      </button>
+
+    </div>
+  </section>
+
+  <section class="
+    py-16
+    max-w-6xl md:max-w-5xl  
+    mx-auto
+    grid grid-cols-1 md:grid-cols-2 gap-4 
+    px-8 md:px-0
+    "
+    >
+    <div class="
+      grid grid-cols-1 place-items-center
+      px-4 md:px-0
+      "
+      >
+      <div class="
+        h-[50vw] w-[50vw] md:h-full md:w-full
+        max-h-[300px] max-w-[300px]
+        bg-contain bg-center bg-no-repeat
+        " 
+        style="
+        background-image: url( {{ '/assets/images/3d-business-man-with-laptop-showing-thumbs-up.png' | htmlBaseUrl  }} )
+        "
+        >
+      </div>
+    </div>
+
+    <div class="grid gap-4">
+
+      <div class=" grid grid-cols-1 gap-4 place-items-center">
+        <div class="text-xl font-bold chi-font-small-spacing primary-color" >提升您的業務生產力</div>
+        <div class="text-2xl md:text-3xl ">立即開始使用我們的服務！</div>
+        <div class="text-lg chi-font-small-spacing">通過我們的智能數位解決方案提升您的生產力並節省時間。立即開始，享受輕鬆、高效的工作體驗！</div>
+        <div class="text-lg chi-font-small-spacing">“Louislabs 致力提供定制數位解決方案，是您的可信賴合作夥伴。我們將創新技術與業界領先的軟件工程技術相結合，提供出色的性能和無與倫比的可靠性。讓我們幫助您的業務邁向新的高峰。”</div>
+      </div>
+
+      <div class="pt-4 grid grid-cols-1 place-items-center">
+        <button class="
+          w-[200px]
+          text-white font-semibold text-lg
+          bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500
+          shadow-lg
+
+          
+          py-2 px-4 
+          rounded-full border border-solid 
+          ">
+          <div class="p-2 chi-font-mid-spacing">
+            聯繫我們
+          </div>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-16
+    max-w-6xl md:max-w-5xl
+    mx-4 md:mx-auto
+    "> 
+    <div class="grid grid-cols-1 gap-0 md:gap-2 place-items-center ">
+      <div class="text-xl font-bold chi-font-small-spacing primary-color" >定價</div>
+      <div class="pt-8 text-2xl md:text-3xl text-center md:text-left">全方位計劃，<br class="block md:hidden"/>不同業務照顧周到！</div>
+      <div class="pt-4 text-lg secondary-color chi-font-small-spacing">我們的彈性價格計劃旨在配合您獨特的需求。選擇最合適您業務規模的計畫。</div>
+    </div>
+
+
+    <!-- component -->
+    <div class="hidden md:block">
+      <div class="pt-16 grid grid-cols-3 gap-8 place-items-center ">
+          <div class="rounded w-72 shadow-xl flex flex-col text-gray-700 min-h-full" >
+            <div class="my-10 mx-2" >
+              <!-- Title -->
+              <p class="font-semibold bg-white bg-opacity-20 rounded-t px-4 py-2 chi-font-small-spacing"><span class="primary-color text-2xl">初</span>創</p>
+              <!-- Pricing -->
+              <div class="flex flex-row items-center pt-8 bg-white bg-opacity-10 pl-12 pr-10 gap-3">
+                <div class="flex flex-row gap-1">
+                  <span class="text-base">
+                    $
+                  </span>
+                  <p class="text-5xl font-semibold eng-font">2000</p>
+                </div>
+                <p class="font-light text-sm">/起</p>
+                
+              </div>
+              <!-- Pricing Additional Description -->
+              <div class="flex flex-row items-center justify-center bg-white bg-opacity-10 pt-5 pb-10">
+                <p class="text-sm text-gray-700 border border-gray-50 border-opacity-20 rounded-full py-1 px-2">完全定制數位解決方案，滿足您的所有需要。聯絡銷售部門索取報價</p>
+              </div>
+
+              <div class="grid grid-cols-12 bg-white bg-opacity-20 px-4 gap-y-3 pt-10 chi-font-small-spacing">
+                <!-- Details 1 -->
+                <div>
+                  <svg class="primary-color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  8個標準靜態頁面
+                </div>
+
+                <!-- Details 2 -->
+                  <div>
+                  <svg class="primary-color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  實現AI方案
+                </div>
+
+                <!-- Details 2 -->
+                  <div>
+                  <svg class="primary-color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  移動應用程式開發
+                </div>
+
+                <!-- Details 2 -->
+                  <div>
+                  <svg class="primary-color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  網絡爬蟲和網絡抓取
+                </div>
+
+                <!-- Details 2 -->
+                <div>
+                  <svg class="primary-color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  數據分析及信息組織服務
+                </div>
+
+                <!-- Details 2 -->
+                <div>
+                  <svg class="primary-color"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  機器學習/事件監測/環境建模/人機互動
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded w-72 shadow-xl flex flex-col text-gray-700 min-h-full">
+            <div class="my-10 mx-2" >
+              <!-- Title -->
+              <p class="font-semibold bg-white bg-opacity-20 rounded-t px-4 py-2  chi-font-small-spacing"><span class="primary-color text-2xl">進</span>階</p>
+              <!-- Pricing -->
+              <div class="flex flex-row items-center pt-8 bg-white bg-opacity-10 pl-12 pr-10 gap-3">
+                <div class="flex flex-row gap-1">
+                  <span class="text-base">
+                    $
+                  </span>
+                  <p class="text-5xl font-semibold eng-font">4000</p>
+                </div>
+                <p class="font-light text-sm">/起</p>
+              </div>
+              <!-- Pricing Additional Description -->
+              <div class="flex flex-row items-center justify-center bg-white bg-opacity-10 pt-5 pb-10">
+                <p class="text-sm text-gray-700 border border-gray-50 border-opacity-20 rounded-full py-1 px-2">標準計畫，提供所有您營銷的基本需要。</p>
+              </div>
+              <div class="grid grid-cols-12 bg-white bg-opacity-20 px-4 gap-y-3 pt-10 chi-font-small-spacing">
+
+
+                <div>
+                  <svg
+                    class="primary-color h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center  pl-2 font-semibold">包括左邊全部功能</div>
+
+
+                <!-- Details 1 -->
+                <div>
+                  <svg
+                    class="primary-color h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  後台管理系統
+                </div>
+
+                <!-- Details 2 -->
+                  <div>
+                  <svg
+                    class="primary-color h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  即時數據庫
+                </div>
+
+                <!-- Details 2 -->
+                  <div>
+                  <svg
+                    class="primary-color h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  1年免費託管
+                </div>
+
+                <!-- Details 2 -->
+                  <div>
+                  <svg
+                    class="primary-color h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  域名註冊服務
+                </div>
+
+                <!-- Details 2 -->
+                <div>
+                  <svg
+                    class="primary-color h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  定制更多功能和工具
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded w-72 shadow-xl flex flex-col text-gray-700 min-h-full">
+            <div class="my-10 mx-2" >
+              <!-- Title -->
+              <p class="font-semibold bg-white bg-opacity-20 rounded-t px-4 py-2 chi-font-small-spacing"><span class="primary-color text-2xl">專</span>業</p>
+              <!-- Pricing -->
+              <div class="flex flex-row items-center pt-8 bg-white bg-opacity-10 pl-12 pr-10 gap-3">
+                <div class="flex flex-row gap-1">
+                  <span class="text-base">
+                    $
+                  </span>
+                  <p class="text-4xl font-semibold eng-font">歡迎報價</p>
+                </div>
+                
+              </div>
+              <!-- Pricing Additional Description -->
+              <div class="flex flex-row items-center justify-center bg-white bg-opacity-10 pt-5 pb-10">
+                <p class="text-sm text-gray-700 border border-gray-50 border-opacity-20 rounded-full py-1 px-2">完全定制數位解決方案，滿足您的所有需要。聯絡銷售部門索取報價</p>
+              </div>
+              
+              <div class="grid grid-cols-12 bg-white bg-opacity-20 px-4 gap-y-3 pt-10 chi-font-small-spacing">
+                <svg
+                  class="primary-color h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewbox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                </svg>
+                <div class="col-span-11 text-sm flex items-center  pl-2 font-semibold">包括左邊全部功能</div>
+
+                <!-- Details 1 -->
+                <div class="primary-color">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  定製軟體開發及 SaaS 按需即用軟件
+                </div>
+
+                <!-- Details 2 -->
+                  <div class="primary-color">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewbox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                    </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  實現AI方案
+                </div>
+
+                <!-- Details 2 -->
+                <div class="primary-color">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  移動應用程式開發
+                </div>
+
+                <!-- Details 2 -->
+                <div class="primary-color">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  網絡爬蟲和網絡抓取
+                </div>
+
+                <!-- Details 2 -->
+                <div class="primary-color">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  數據分析及信息組織服務
+                </div>
+
+                <!-- Details 2 -->
+                <div class="primary-color">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+                  </svg>
+                </div>
+
+                <div class="col-span-11 text-sm flex items-center font-semibold pl-2">
+                  機器學習/事件監測/環境建模/人機互動
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </section>
+
+</div>

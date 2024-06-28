@@ -1,16 +1,18 @@
 {
-  "name": "hi",
+  "name": "11ty-portfolio",
   "version": "1.0.0",
-  "description": "hi",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "start": "serve ./public",
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^6.1.1"
+    "@11ty/eleventy": "^2.0.0",
+    "serve": "^14.2.0"
   }
 }
