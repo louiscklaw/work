@@ -11,14 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet"> {# stylesheet #}
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.css"/> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.css"/>
     <script src="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.min.js"></script>
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | transformWithHtmlBase }}">
     <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | transformWithHtmlBase }}" >
-    
+
     {# Meta #}
-    
+
     <title>{{ site.name }}
       {% if title %}
         - {{ title }}
@@ -27,12 +26,12 @@
 
     <meta
       name="description"
-      content=" 
-        {% if description %} 
-          {{ description }} 
-        {% else %} 
-          {{ site.description }} 
-        {% endif %} 
+      content="
+        {% if description %}
+          {{ description }}
+        {% else %}
+          {{ site.description }}
+        {% endif %}
         "/>
 
     <!-- Google tag (gtag.js) -->
@@ -45,18 +44,25 @@
       gtag('config', 'G-BN21D5KSVM');
     </script>
 
+    <style>
+      {% include "./style.njk" %}
+    </style>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
   </head>
-  
-  <body 
-    class="text-gray-700 text-md leading-10 text-color" 
+
+  <body
+    class="text-gray-700 text-md leading-10 text-color"
     style="
-      overflow-x: hidden; 
-      font-family: Noto Sans TC, sans-serif; letter-spacing: 0.2rem; 
+      overflow-x: hidden;
+      font-family: Noto Sans TC, sans-serif; letter-spacing: 0.2rem;
       width: 100vw;
       "
     >
     {% include "partials/_navigation.njk" %}
-    
+
     <main class="w-screen">
       {% block content %}
         {{ content | safe }}
