@@ -1,32 +1,38 @@
 /* custom */
 .eng-font {
   letter-spacing: 0rem;
+  opacity: 0.9;
 }
 
 .chi-font-no-spacing {
   letter-spacing: 0rem;
+  opacity: 0.9;
 }
 
 .chi-font-small-spacing {
   letter-spacing: 0.1rem;
+  opacity: 0.9;
 }
 
 .chi-font-mid-spacing {
   letter-spacing: 0.2rem;
+  opacity: 0.9;
 }
 
 .chi-font-large-spacing {
   letter-spacing: 0.5rem;
+  opacity: 0.9;
 }
-
 
 .chi-font-small-line-height {
   line-height: 1.5rem;
+  opacity: 0.9;
 }
 
 .chi-paragraph {
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
+  opacity: 0.9;
 }
 
 .primary-color{
