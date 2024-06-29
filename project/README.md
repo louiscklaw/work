@@ -27,3 +27,9 @@ https://www.svgrepo.com/collection/industrial-sharp-ui-icons/
 - [ ] item4
 - [ ] item5
 - [ ] item6
+
+
+# google tags
+https://analytics.google.com/analytics/web/?pli=1#/p448246850/reports/reportinghub
+
+

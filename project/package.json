@@ -10,7 +10,7 @@
     "dev:11ty": "eleventy --serve --config .eleventy.dev.js",
     "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --watch --postcss",
     "build:11ty": "eleventy",
-    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss"
+    "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss --minify"
   },
   "keywords": [],
   "author": "",
@@ -24,8 +24,12 @@
     "tailwindcss": "^3.1.3"
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^4.0.2",
+    "clean-css": "^5.3.3",
+    "clean-css-cli": "^5.6.3",
     "dotenv": "^16.4.5",
     "gh-pages": "^6.1.1",
+    "html-minifier": "^4.0.0",
     "tailwind-fontawesome": "^0.6.0",
     "tailwind-scrollbar-hide": "^1.1.7"
   }

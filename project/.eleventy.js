@@ -1,6 +1,9 @@
 const { DateTime } = require("luxon");
 const pageHeading = require("./src/_includes/shortcodes/pageHeading");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const CleanCSS = require("clean-css");
+const htmlmin = require("html-minifier");
+const Image = require('@11ty/eleventy-img');
 
 module.exports = function (eleventyConfig) {
   //* PASSTHROUGH COPIES
@@ -11,6 +14,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin,{
     baseHref: '/work/',
     extensions: "html",
+  });
+
+  eleventyConfig.addFilter("cssmin", function (code) {
+		return new CleanCSS({}).minify(code).styles;
+	});
+
+  eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+    if (outputPath.endsWith(".html")) {
+      return htmlmin.minify(content, {
+        collapseWhitespace: true,
+        removeComments: true,  
+        useShortDoctype: true,
+      });
+    }
+    return content;
   });
 
   // eleventyConfig.addShortcode(
