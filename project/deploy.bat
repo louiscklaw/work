@@ -1,2 +1,2 @@
-npm run build
-npm run deploy
+call npm run build
+call npm run deploy
